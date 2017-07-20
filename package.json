@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build"
   },
   "author": "",
   "license": "ISC",
@@ -14,7 +14,9 @@
     "autoprefixer": "6.7.6",
     "babel-plugin-module-resolver": "2.5.0",
     "babel-plugin-wrap-in-js": "^1.1.0",
+    "front-matter": "^2.1.2",
     "glob": "7.1.1",
+    "isomorphic-fetch": "^2.2.1",
     "next": "^3.0.1-beta.17",
     "node-sass": "^4.4.0",
     "normalize.css": "5.0.0",
@@ -23,6 +25,7 @@
     "raw-loader": "^0.5.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-markdown": "^2.5.0",
     "sass-loader": "^6.0.6"
   },
   "devDependencies": {
