@@ -1,0 +1,37 @@
+body {
+  background-color: #fff;
+  font-family: 'Zilla Slab', serif;
+}
+
+.heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-size: 2rem;
+}
+
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  margin: auto;
+}
+
+.page {
+  text-align: left;
+  width: 30rem;
+}
+.footer {
+  font-size: 14px;
+  font-size: 0.875rem;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    margin: 0 0.25em;
+  }
+}
